@@ -6,7 +6,7 @@ int main (void)
     int n = 0;  //in this case n is to know how many numbers the user wanna give
     int number;
     int i = 1;
-    printf("please montion how many numbers you wanna give!\n");
+    printf("please mention how many numbers you wanna give!\n");
     scanf("%d", &n);
     while (i <= n)
     {
