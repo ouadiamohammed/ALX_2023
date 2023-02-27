@@ -6,12 +6,15 @@ int main (void)
     int num = 0;
     while (1)
     {
+        printf("please enter your number!\n");
         scanf ("%d", &num);
         if (num < 0)
         {
             break;
-        }else
+        }else{
             sum = sum + num;
+        }
     }
-    printf("%d", sum);
+    printf("the result is %d\n", sum);
+    return (0);
 }
